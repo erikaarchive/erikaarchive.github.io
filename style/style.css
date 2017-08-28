@@ -22,6 +22,10 @@ div.body-section.col{
     padding: 0 !important;
 }
 
+.slider .slides{
+    background-color: transparent;
+}
+
 .slider .slides li{
     height: 100vh !important;
 }
@@ -44,4 +48,27 @@ div.body-section.col{
 
 .category{
     margin-bottom: 300px;
+}
+
+.parallax-header-image{
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .parallax-container{
+        height: 100px;
+    }
+
+    .images-container{
+        padding: 20px;
+        margin-bottom: 80px;
+    }
+
+    .image-sport{
+        margin-bottom: 40px;
+    }
+
+    .body-section-row{
+        margin-top: 80px;
+    }
 }
