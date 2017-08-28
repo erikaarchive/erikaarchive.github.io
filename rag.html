@@ -5,13 +5,14 @@
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
         <link rel="stylesheet" href="style/style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
         <nav>
             <div class="nav-wrapper purple darken-3">
                 <a href="#" class="brand-logo">Erika Archive</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <ul id="nav-mobile" class="right">
                     <li><a href="index.html">House</a></li>
                     <li><a href="culture.html">Culture</a></li>
                     <li><a href="sport.html">Sport</a></li>
@@ -25,8 +26,8 @@
                 <li>
                     <img src="images/layout/hero-image.jpg"> <!-- random image -->
                     <div class="caption right-align">
-                        <h3>RAG</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        <h3>Welcome to Erika's archive of 2017</h3>
+                        <h5 class="light grey-text text-lighten-3">- RAG</h5>
                     </div>
                 </li>
             </ul>
@@ -43,22 +44,10 @@
                                 <div class="slider">
                                     <ul class="slides">
                                         <li>
-                                            <img class="image materialboxed" src="images/rag/rag/Rag 1-20.png">
+                                            <img class="image" src="images/rag/rag/Rag 1-20.png">
                                         </li>
                                         <li>
-                                            <img class="image materialboxed" src="images/rag/rag/Rag 2-17.png">
-                                        </li>
-                                    </ul>
-                                  </div>
-                            </div>
-                            <div class="col s12 m4 l4">
-                                <div class="slider">
-                                    <ul class="slides">
-                                        <li>
-                                            <img class="image materialboxed" src="images/rag/rag/Rag 3-17.png">
-                                        </li>
-                                        <li>
-                                            <img class="image materialboxed" src="images/rag/rag/Rag 4-17.png">
+                                            <img class="image" src="images/rag/rag/Rag 2-17.png">
                                         </li>
                                     </ul>
                                   </div>
@@ -67,10 +56,22 @@
                                 <div class="slider">
                                     <ul class="slides">
                                         <li>
-                                            <img class="image materialboxed" src="images/rag/rag/Rag 5-17.png">
+                                            <img class="image" src="images/rag/rag/Rag 3-17.png">
                                         </li>
                                         <li>
-                                            <img class="image materialboxed" src="images/rag/rag/Rag 6-17.png">
+                                            <img class="image" src="images/rag/rag/Rag 4-17.png">
+                                        </li>
+                                    </ul>
+                                  </div>
+                            </div>
+                            <div class="col s12 m4 l4">
+                                <div class="slider">
+                                    <ul class="slides">
+                                        <li>
+                                            <img class="image" src="images/rag/rag/Rag 5-17.png">
+                                        </li>
+                                        <li>
+                                            <img class="image" src="images/rag/rag/Rag 6-17.png">
                                         </li>
                                     </ul>
                                   </div>
@@ -79,7 +80,7 @@
                     </div>
                 </div>
 
-                <div class="category row">
+                <div class="category row zeftroue">
                     <div id="zeftroue" class="section scrollspy">
                         <div class="parallax-container">
                           <div class="parallax"><img class="parallax-header-image" src="images/rag/zef troue/Zef Heading-02.png"></div>
@@ -89,10 +90,10 @@
                                 <div class="slider">
                                     <ul class="slides">
                                         <li>
-                                            <img class="image-sport materialboxed" src="images/rag/zef troue/Zef 1-04.png">
+                                            <img class="image-sport" src="images/rag/zef troue/Zef 1-04.png">
                                         </li>
                                         <li>
-                                            <img class="image-sport materialboxed" src="images/rag/zef troue/Zef 2-04.png">
+                                            <img class="image-sport" src="images/rag/zef troue/Zef 2-04.png">
                                         </li>
                                     </ul>
                                   </div>
@@ -101,10 +102,10 @@
                                 <div class="slider">
                                     <ul class="slides">
                                         <li>
-                                            <img class="image-sport materialboxed" src="images/rag/zef troue/Zef 3-04.png">
+                                            <img class="image-sport" src="images/rag/zef troue/Zef 3-04.png">
                                         </li>
                                         <li>
-                                            <img class="image-sport materialboxed" src="images/rag/zef troue/Zef 4-04.png">
+                                            <img class="image-sport" src="images/rag/zef troue/Zef 4-04.png">
                                         </li>
                                     </ul>
                                   </div>
@@ -123,7 +124,7 @@
         </div>
         <script>
             $(document).ready(function(){
-                $('.slider').slider({indicators: false, height: 800, interval: 3000});
+                $('.slider').slider({indicators: false, interval: 3000});
             });
 
             $('.carousel.carousel-slider').carousel({fullWidth: true});

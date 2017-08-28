@@ -1,3 +1,8 @@
+html {
+    font-family: 'Advent Pro', sans-serif;
+    
+}
+
 .nav-wrapper .brand-logo{
     padding-left: 40px;
 }
@@ -54,7 +59,15 @@ div.body-section.col{
     width: 100%;
 }
 
+.hero-image{
+    height: 100%;
+}
+
 @media only screen and (max-width: 768px) {
+    .nav-wrapper ul{
+        padding-right: 15px;
+    }
+
     .parallax-container{
         height: 100px;
     }
@@ -69,6 +82,38 @@ div.body-section.col{
     }
 
     .body-section-row{
-        margin-top: 80px;
+        margin-top: 250px;
+    }
+
+    .nav-wrapper .brand-logo{
+        display: none;
+    }
+
+    .hero-image{
+        margin-bottom: 40px;
+    }
+
+    .category{
+        margin-bottom: 100px;
+    }
+
+    .semiseniorweek{
+        margin-top: 300px;
+    }
+
+    .misserika{
+        margin-top: 300px;
+    }
+
+    .motheranddaughter{
+        margin-top: 300px;
+    }
+
+    .floordecorations{
+        margin-top: 300px;
+    }
+
+    .zeftroue{
+        margin-top: 300px;
     }
 }
