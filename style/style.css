@@ -1,0 +1,47 @@
+.nav-wrapper .brand-logo{
+    padding-left: 40px;
+}
+
+.nav-wrapper ul{
+    padding-right: 40px;
+}
+
+.table-of-contents a.active {
+    border-left: 2px solid #4527a0;
+}
+
+.table-of-contents a:hover {
+    border-left: 2px solid #d1c4e9;
+}
+
+.body-section-row{
+    margin-top: 300px;
+}
+
+div.body-section.col{
+    padding: 0 !important;
+}
+
+.slider .slides li{
+    height: 100vh !important;
+}
+
+.images-container{
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 200px;
+}
+
+.image{
+    width: 100%;
+}
+
+.image-sport{
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.category{
+    margin-bottom: 300px;
+}

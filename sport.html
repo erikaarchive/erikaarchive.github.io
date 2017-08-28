@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Erika Archive</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="style/style.css"/>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper deep-purple darken-3">
+                <a href="#" class="brand-logo">Erika Archive</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">House</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="social.html">Social</a></li>
+                    <li><a href="rag.html">Rag</a></li>
+                    <li><a href="firstyears.html">First Years</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="images/layout/hero-image.jpg"> <!-- random image -->
+                    <div class="caption right-align">
+                        <h3>Sport</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="body-section-row row">
+            <div class="body-section col s12 m9 l11">
+                <div class="category row">
+                    <div id="sport" class="section scrollspy">
+                        <div class="parallax-container">
+                          <div class="parallax"><img src="images/sport/Sport heading-30.png"/></div>
+                        </div>
+                        <div class="images-container">
+                            <div class="col s6">
+                                <img class="image-sport materialboxed" src="images/sport/SPORT 1_Artboard 57.png"/>
+                            </div>
+                            <div class="col s6">
+                                <img class="image-sport materialboxed" src="images/sport/SPORT 2_Artboard 57.png"/>
+                            </div>
+                            <div class="col s6">
+                                <img class="image-sport materialboxed" src="images/sport/SPORT 3_Artboard 57.png"/>
+                            </div>
+                            <div class="col s6">
+                                <img class="image-sport materialboxed" src="images/sport/SPORT 4_Artboard 57.png"/>
+                            </div>
+                            <div class="col s6">
+                                <img class="image-sport materialboxed" src="images/sport/SPORT 5_Artboard 57.png"/>
+                            </div>
+                            <div class="col s6">
+                                <img class="image-sport materialboxed" src="images/sport/SPORT 6_Artboard 57.png"/>
+                            </div>
+                            <div class="col s6">
+                                <img class="image-sport materialboxed" src="images/sport/SPORT 7_Artboard 57.png"/>
+                            </div>
+                            <div class="col s6">
+                                <img class="image-sport materialboxed" src="images/sport/SPORT 8_Artboard 57.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col hide-on-small-only m3 l1">
+                <ul class="section table-of-contents">
+                    <li><a href="#sport">Sport</a></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('.slider').slider({indicators: false, height: 800, interval: 3000});
+            });
+
+            $('.carousel.carousel-slider').carousel({fullWidth: true});
+            
+            $(document).ready(function(){
+                $('.scrollspy').scrollSpy();
+            });
+            
+            $(document).ready(function(){
+                $('.parallax').parallax();
+            });
+        </script>
+    </body>
+</html>

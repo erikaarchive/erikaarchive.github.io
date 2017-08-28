@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <title>Erika Archive</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="style/style.css"/>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper deep-purple darken-3">
+                <a href="#" class="brand-logo">Erika Archive</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">House</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="sport.html">Sport</a></li>
+                    <li><a href="social.html">Social</a></li>
+                    <li><a href="firstyears.html">First Years</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="images/layout/hero-image.jpg"> <!-- random image -->
+                    <div class="caption right-align">
+                        <h3>RAG</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="body-section-row row">
+            <div class="body-section col s12 m9 l11">
+                <div class="category row">
+                    <div id="rag" class="section scrollspy">
+                        <div class="parallax-container">
+                          <div class="parallax"><img src="images/rag/rag/Rag heading-30.png"/></div>
+                        </div>
+                        <div class="images-container">
+                            <div class="col s4">
+                                <div class="slider">
+                                    <ul class="slides">
+                                        <li>
+                                            <img class="image materialboxed" src="images/rag/rag/Rag 1-20.png">
+                                        </li>
+                                        <li>
+                                            <img class="image materialboxed" src="images/rag/rag/Rag 2-17.png">
+                                        </li>
+                                    </ul>
+                                  </div>
+                            </div>
+                            <div class="col s4">
+                                <div class="slider">
+                                    <ul class="slides">
+                                        <li>
+                                            <img class="image materialboxed" src="images/rag/rag/Rag 3-17.png">
+                                        </li>
+                                        <li>
+                                            <img class="image materialboxed" src="images/rag/rag/Rag 4-17.png">
+                                        </li>
+                                    </ul>
+                                  </div>
+                            </div>
+                            <div class="col s4">
+                                <div class="slider">
+                                    <ul class="slides">
+                                        <li>
+                                            <img class="image materialboxed" src="images/rag/rag/Rag 5-17.png">
+                                        </li>
+                                        <li>
+                                            <img class="image materialboxed" src="images/rag/rag/Rag 6-17.png">
+                                        </li>
+                                    </ul>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category row">
+                    <div id="zeftroue" class="section scrollspy">
+                        <div class="parallax-container">
+                          <div class="parallax"><img src="images/rag/zef troue/Zef Heading-02.png"></div>
+                        </div>
+                        <div class="images-container">
+                            <div class="col s12">
+                                <div class="slider">
+                                    <ul class="slides">
+                                        <li>
+                                            <img class="image-sport materialboxed" src="images/rag/zef troue/Zef 1-04.png">
+                                        </li>
+                                        <li>
+                                            <img class="image-sport materialboxed" src="images/rag/zef troue/Zef 2-04.png">
+                                        </li>
+                                    </ul>
+                                  </div>
+                            </div>
+                            <div class="col s12">
+                                <div class="slider">
+                                    <ul class="slides">
+                                        <li>
+                                            <img class="image-sport materialboxed" src="images/rag/zef troue/Zef 3-04.png">
+                                        </li>
+                                        <li>
+                                            <img class="image-sport materialboxed" src="images/rag/zef troue/Zef 4-04.png">
+                                        </li>
+                                    </ul>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col hide-on-small-only m3 l1">
+                <ul class="section table-of-contents">
+                    <li><a href="#rag">Rag</a></li>
+                    <li><a href="#zeftroue">Zef Troue</a></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('.slider').slider({indicators: false, height: 800, interval: 3000});
+            });
+
+            $('.carousel.carousel-slider').carousel({fullWidth: true});
+            
+            $(document).ready(function(){
+                $('.scrollspy').scrollSpy();
+            });
+            
+            $(document).ready(function(){
+                $('.parallax').parallax();
+            });
+        </script>
+    </body>
+</html>
